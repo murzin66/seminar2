@@ -8,7 +8,7 @@
 Изменение состояния компонента происходит по следующему алгоритму:
 
 
-<p align = center>![state_flow](https://github.com/user-attachments/assets/c0faef82-10eb-4085-8c91-c35e4ad93ec6)</p>
+<p align = "center">![state_flow](https://github.com/user-attachments/assets/c0faef82-10eb-4085-8c91-c35e4ad93ec6)</p>
 
 
 На первом этапе пользователь изменяет значение элемента, далее измененное значение передается обработчику события,
