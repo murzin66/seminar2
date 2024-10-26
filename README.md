@@ -3,21 +3,6 @@
 и изменяется при вызове колбэков, таких как например onChange. Родительский компонент 
 может участвовать в управлении дочернего компонента за счет передачи начального состояния, 
 а также с помощью реализации функции изменения состояния.
-Пример управляемого компонента
-
-import { useState } from 'react'; 
-
-function App() { 
-  const [value, setValue] = useState(''); 
-
-  return ( 
-    <div> 
-      <h3>Controlled Component</h3> 
-      <input name="name" value={name} onChange={(e) => setValue(e.target.value)} />
-      <button onClick={() => console.log(value)}>Get Value</button> 
-    </div> 
-  ); 
-}
 
 
 <b> Неуправляемые компоненты </b> - компоненты, которые содержат в себе установку первоначального состояния, 
